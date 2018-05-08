@@ -33,7 +33,7 @@ $(function () {
 
     var newBurger = {
       name: $("#bu").val().trim(),
-      devoured: $("[name=devoured]:checked").val().trim()
+      devoured: 0
     };
     // alert(JSON.stringify(newBurger,null,2));
     console.log(newBurger);
